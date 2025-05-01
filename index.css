@@ -1,0 +1,215 @@
+body {
+  overflow-x: hidden;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.leftdiv a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.rightdiv i {
+  padding: 7px;
+  background-color: orange;
+  border-radius: 50px;
+}
+.nav img {
+  width: 100%;
+  cursor: pointer;
+}
+.navbar {
+  background-color: black;
+  padding: 8px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+.image img {
+  width: 100%;
+}
+.content {
+  text-align: center;
+  cursor: pointer;
+}
+.content h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.content p {
+  margin: 5px 10px;
+}
+.container {
+  margin: 40px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.images img {
+  width: 100%;
+  cursor: pointer;
+}
+.images .box1:hover {
+  box-shadow: 10px 10px 10px 8px rgba(233, 232, 232, 0.932);
+}
+
+.box1 h4 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp {
+  background-color: rgb(26, 73, 160);
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.dp:hover {
+  font-size: 16px;
+}
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.imgs:hover {
+  box-shadow: 10px 10px 10px 8px rgba(233, 232, 232, 0.526);
+}
+.img1 {
+  background-color: rgb(0, 151, 136);
+  padding: 28px;
+  color: white;
+}
+.news h4 {
+  background-color: rgb(26, 73, 160);
+  padding: 12px;
+  margin: 2px;
+}
+.news h4:hover {
+  padding: 15px;
+}
+.container_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.container_images .rightimage img {
+  width: 200px;
+}
+.container_images .leftimage img {
+  width: 500px;
+  border: 2px solid black;
+}
+.colorboxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 50px;
+  cursor: pointer;
+}
+.colorboxes .colorbox1 {
+  background-color: rgb(10, 203, 246);
+}
+.colorboxes .colorbox2 {
+  background-color: rgb(148, 96, 255);
+}
+.colorboxes .colorbox3 {
+  background-color: rgb(255, 236, 227);
+}
+.colors {
+  border-radius: 20px;
+  padding: 30px;
+}
+.colors:hover {
+  box-shadow: 10px 10px 10px 8px rgba(233, 232, 232, 0.932);
+}
+
+.stars i {
+  color: rgba(226, 163, 35, 0.843);
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: brown;
+  color: white;
+}
+.contact {
+  font-size: 20px;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(8, 31, 63);
+  font-size: 20px;
+  color: white;
+}
+.form input {
+  font-size: 20px;
+}
+.form button {
+  background: rgb(84, 78, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 78, 149, 1) 8%,
+    rgba(139, 122, 71, 1) 100%
+  );
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.form textarea {
+  height: 150px;
+  width: 375px;
+}
+.map iframe {
+  width: 420px;
+  height: 400px;
+  border: 0;
+}
+.content h3 {
+  position: relative;
+}
+.content h3::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 179px;
+  background-color: brown;
+  top: 20px;
+  left: 530px;
+}
+.logos i {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: blue;
+  cursor: pointer;
+}
+.logos i:hover {
+  background-color: white;
+  color: blue;
+}
